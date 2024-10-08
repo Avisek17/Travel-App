@@ -1,0 +1,58 @@
+/* Import from Material-UI (if using globally) */
+/* @import '@mui/material/styles'; */
+
+.MuiContainer-root {
+    width: 100%; /* Ensure the container fills the available space */
+  }
+  
+  .MuiAppBar-root {
+    width: 100%; /* Ensure the AppBar fills the available space */
+    background-color: white; /* Set background color as defined in your code */
+  }
+  
+  .MuiTypography-h6 {
+    color: black; /* Default text color for headings */
+  }
+  
+  .MuiIconButton-root {
+    color: black; /* Default color for icons */
+  }
+  
+  .search {
+    position: relative;
+    border-radius: 4px; /* Consistent border radius */
+    background-color: rgba(0, 0, 0, 0.05); /* Light gray background */
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.15); /* Slightly darker hover effect */
+    }
+    margin-right: 16px; /* Consistent margin */
+    width: 100%;
+  
+    /* Media query for responsive behavior (adjust as needed) */
+    @media (min-width: 600px) {
+      margin-left: 24px; /* Adjust margin on larger screens */
+      width: auto;
+    }
+  }
+  
+  .searchIconWrapper {
+    padding: 8px; /* Consistent padding for icon */
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .MuiInputBase-input {
+    color: inherit; /* Inherit text color from parent elements */
+    padding: 8px 8px 8px 0; /* Adjust padding for consistent spacing */
+    padding-left: calc(1em + 24px); /* Account for icon and margin */
+    transition: width 0.3s ease-in-out; /* Smooth transition on width change */
+    width: 100%;
+  
+    @media (min-width: 600px) {
+      width: 20ch; /* Adjust width on larger screens */
+    }
+  }
+  

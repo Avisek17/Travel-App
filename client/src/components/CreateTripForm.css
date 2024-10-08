@@ -1,0 +1,41 @@
+.create-trip-form {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.custom-label {
+  margin-top: 16px;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.custom-date-picker {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.custom-date-picker::placeholder {
+  color: #888;
+  font-size: 1em;
+}
+
+.MuiAutocomplete-root {
+  margin-bottom: 16px;
+}
+
+button.MuiButton-root {
+  background-color: #3f51b5;
+  color: white;
+}
+
+button.MuiButton-root:hover {
+  background-color: #2c387e;
+}
