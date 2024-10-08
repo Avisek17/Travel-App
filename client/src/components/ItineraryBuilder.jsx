@@ -39,7 +39,7 @@ const CreateItineraryForm = () => {
                     title: '',
                     notes: '',
                     activities: [],
-                    places: []  // Added places array for each day
+                    places: []  
                 }));
                 
                 setDays(daysArray);
@@ -160,7 +160,7 @@ const CreateItineraryForm = () => {
             title: itineraryData[day.dayNumber]?.title || '',
             notes: itineraryData[day.dayNumber]?.notes || '',
             activities: itineraryData[day.dayNumber]?.activities || [],
-            places: itineraryData[day.dayNumber]?.places || [] // Send places for each day
+            places: itineraryData[day.dayNumber]?.places || []
         }));
 
         try {

@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 const pool = require('../config/db');
 // Fetch all itinerary items for a specific trip
 const getItineraryByTripModel = async (Trip_id, user_id) => {

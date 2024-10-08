@@ -54,7 +54,7 @@ const MapContainer = ({ destination, destination_lat, destination_lng, onPlaceSe
 
   const handleMarkerClick = (place) => {
     setSelectedPlace(place);
-    onPlaceSelect(place); // Notify the parent about the selected place
+    onPlaceSelect(place); 
   };
 
   return (
@@ -86,7 +86,7 @@ const MapContainer = ({ destination, destination_lat, destination_lng, onPlaceSe
             position={selectedPlace.geometry.location}
             onCloseClick={() => {
               setSelectedPlace(null);
-              onPlaceSelect(null); // Notify the parent that no place is selected
+              onPlaceSelect(null); 
             }}
           >
             <div>

@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const router = express.Router();
 
-const API_KEY = 'AIzaSyCEiojsFm3pm6cKnmAdffu9GYih2rzqt7I'; 
+const API_KEY = 'Your Api key'; 
 
 // Route to get place suggestions
 router.get('/places', async (req, res) => {

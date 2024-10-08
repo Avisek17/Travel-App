@@ -11,7 +11,7 @@ import NavBar from '../components/Navbar';
 
 import './CreateTripForm.css';  
 
-// const API_KEY = 'AIzaSyCEiojsFm3pm6cKnmAdffu9GYih2rzqt7I';
+
 const containerStyle = { width: '100%', height: '400px' };
 const center = { lat: 27.7172, lng: 85.3240 }; 
 

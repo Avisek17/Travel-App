@@ -24,7 +24,7 @@ const MapWithSearch = () => {
   const [loading, setLoading] = useState(false);
 
   const { isLoaded, loadError } = useJsApiLoader({
-    googleMapsApiKey: 'AIzaSyCEiojsFm3pm6cKnmAdffu9GYih2rzqt7I',
+    googleMapsApiKey: 'your Api Key',
     libraries
   });
 
