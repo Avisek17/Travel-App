@@ -20,7 +20,7 @@ export const createUser = async (userData) => {
 
 // Function to fetch coordinates from an external API
 const fetchCoordinates = async (destination) => {
-    const OPENCAGE_API_KEY = '5e20dfafb98f41588eb7bbc9f525045f';  // Replace with your actual API key
+    const OPENCAGE_API_KEY = '5e20dfafb98f41588eb7bbc9f525045f';  // Replace with your API key
     const url = `https://api.opencagedata.com/geocode/v1/json?q=${encodeURIComponent(destination)}&key=${OPENCAGE_API_KEY}`;
 
     try {

@@ -15,7 +15,7 @@ const HeroSection = () => {
   return (
     <Box
       sx={{
-        height: 'calc(100vh - 64px)', // Adjust height to subtract the AppBar height
+        height: 'calc(100vh - 64px)', 
         backgroundImage: `url(${heroImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -39,56 +39,10 @@ const HeroSection = () => {
         Kata Haau?
       </Typography> */}
       <Box sx={{ width: '100%', maxWidth: 1000, marginBottom: 3 }}>
-        {/* <TextField
-          placeholder="Places to go, things to do, hotels..."
-          variant="outlined"
-          fullWidth
-          sx={{
-            backgroundColor: 'white',
-            borderRadius: 4,
-            '& .MuiOutlinedInput-root': {
-              borderRadius: 5,
-            },
-          }}
-          InputProps={{
-            startAdornment: (
-              <InputAdornment position="start">
-                <SearchIcon />
-              </InputAdornment>
-            ),
-          }}
-        /> */}
+     
       </Box>
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
-        {/* <Button 
-          variant="outlined" 
-          sx={{ color: 'black', borderColor: 'black',borderRadius:"20px", 
-          }} 
-          onClick={() => handleSearch('all')}
-        >
-          Search All
-        </Button>
-        <Button 
-          variant="outlined" 
-          sx={{ color: 'black', borderColor: 'black',borderRadius:"20px" }} 
-          onClick={() => handleSearch('hotels')}
-        >
-          Hotels
-        </Button>
-        <Button 
-          variant="outlined" 
-          sx={{ color: 'black', borderColor: 'black',borderRadius:"20px" }} 
-          onClick={() => handleSearch('things_to_do')}
-        >
-          Things to Do
-        </Button>
-        <Button 
-          variant="outlined" 
-          sx={{ color: 'black', borderColor: 'black',borderRadius:"20px" }} 
-          onClick={() => handleSearch('restaurants')}
-        >
-          Restaurants
-        </Button> */}
+       
         
         </Box>
       </Box>

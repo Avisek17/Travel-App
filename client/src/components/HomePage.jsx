@@ -19,24 +19,7 @@ const HomePage = () => {
         <p>Discover and book amazing experiences worldwide.</p>
         <button className="cta-button">Get Started</button>
       </section>
-      
-      {/* <section className="features">
-        <div className="feature">
-          <img src="../../public/logo512.png" alt="Explore" />
-          <h3>Explore Destinations</h3>
-          <p>Find the best places to visit around the world.</p>
-        </div>
-        <div className="feature">
-          <img src="../../public/logo512.png" alt="Plan" />
-          <h3>Plan Your Itinerary</h3>
-          <p>Create detailed itineraries for your trips.</p>
-        </div>
-        <div className="feature">
-          <img src="../../public/logo512.png" alt="Book" />
-          <h3>Book Activities</h3>
-          <p>Reserve tours, activities, and more with ease.</p>
-        </div>
-      </section> */}
+    
     </div>
   );
 };
